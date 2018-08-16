@@ -1,3 +1,4 @@
+let player = [];
 const recipes = [{name:'Guacamole', 
 ingredients: ['Avocado', 'Lime', 'Cilantro', 'Onion', 'Tomato', 'Salt and Pepper'],
 clue: ['A dip or condiment originating in Mexico']},
@@ -8,17 +9,33 @@ clue: ['A cake made from a veggie for healthy eyes']},
 ingredients: ['Chickpeas', 'Tahini', 'Lemon', 'Garlic', 'Salt and Pepper', 'Olive Oil'], 
 clue: ['Levantine dip or spread for veggies or pita']}];
 
-//console.log(recipes);
+// console.log(recipes[0]);
 
+let chosenRecipe;
 function randomRecipes(recipes) {
-    return recipes[Math.floor(Math.random()*recipes.length)];
+   chosenRecipe = recipes[Math.floor(Math.random()*recipes.length)]
+   return chosenRecipe;
 }
-console.log(randomRecipes(recipes));
+randomRecipes(recipes)
+
+console.log(chosenRecipe.ingredients);
+
+
+
+
+// chosenRecipe.ingredients
+// chosenRecipe.clue
+// chosenRecipe.name
 
 
 
 
 
+
+// function randomClue(recipes, clue) {
+//     return recipes, clue[Math.floor(Math.random()*recipes.length)];
+// }
+// console.log(randomClue(recipes[0].name.clue));
 
 
 // FUNCTION TO RANDOMLY SELECT RECIPE
@@ -27,12 +44,6 @@ console.log(randomRecipes(recipes));
 //     return obj[keys[ keys.length * Math.random() << 0]];
 // };
 
-
-// const guacIng = ['Avocado', 'Lime juice', 'Cilantro', 'Onion', 'Tomato', 'Salt & Pepper'];
-// function randomGuacIng(guacIng) {
-//     return guacIng[Math.floor(Math.random()*guacIng.length)];
-// }
-// console.log(randomGuacIng(guacIng));
 
 // for/in - loops through the properties of an object
 // var person = {fname:"John", lname:"Doe", age:25}; 
