@@ -7,19 +7,26 @@ h1 {
     font-family: 'Righteous', cursive;
     font-size: 50px;
     color: ;
-    text-align: 
+    text-align: center;
 }
 
 h3 {
-    font-family: 'Righteous', cursive;
+    font-family: 'ABeeZee', sans-serif;
     font-size: 35px;
     color: ;
-    text-align: 
+    text-align: center;
+    padding: 35px;
 }
 
 h4 {
-    font-family: 'Righteous', cursive;
+    font-family: 'ABeeZee', sans-serif;
     font-size: 25px;
     color: ;
-    text-align: 
+    text-align: center;
+    padding: 7px;
+}
+
+form {
+    text-align: center;
+    padding: 15px;
 }
