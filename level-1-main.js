@@ -1,70 +1,65 @@
-// recipes ideas 
-// guac, carrot cake, banana bread, spaghetti and meatballs, lemonade, hummus, apple pie, 
+const recipes = [{name:'Guacamole', 
+ingredients: ['Avocado', 'Lime', 'Cilantro', 'Onion', 'Tomato', 'Salt and Pepper'],
+clue: ['A dip or condiment originating in Mexico']},
+{name: 'Carrot Cake', 
+ingredients: ['Carrots', 'Sugar', 'Eggs', 'Cinnamon', 'Flour', 'Cream Cheese'],
+clue: ['A cake made from a veggie for healthy eyes']},
+{name: 'Hummus', 
+ingredients: ['Chickpeas', 'Tahini', 'Lemon', 'Garlic', 'Salt and Pepper', 'Olive Oil'], 
+clue: ['Levantine dip or spread for veggies or pita']}];
 
-// var person = {
-//     firstName:"John",
-//     lastName:"Doe",
-//     age:50,
-//     eyeColor:"blue"
+//console.log(recipes);
+
+function randomRecipes(recipes) {
+    return recipes[Math.floor(Math.random()*recipes.length)];
+}
+console.log(randomRecipes(recipes));
+
+
+
+
+
+
+
+// FUNCTION TO RANDOMLY SELECT RECIPE
+// var randomProperty = function (obj) {
+//     var keys = Object.keys(obj)
+//     return obj[keys[ keys.length * Math.random() << 0]];
 // };
 
-// const recipes = ["Guacamole", "Carrot Cake", "Hummus"]
+
+// const guacIng = ['Avocado', 'Lime juice', 'Cilantro', 'Onion', 'Tomato', 'Salt & Pepper'];
+// function randomGuacIng(guacIng) {
+//     return guacIng[Math.floor(Math.random()*guacIng.length)];
+// }
+// console.log(randomGuacIng(guacIng));
+
+// for/in - loops through the properties of an object
+// var person = {fname:"John", lname:"Doe", age:25}; 
+
+// var text = "";
+// var x;
+// for (x in person) {
+//     text += person[x];
+// }
 
 // The syntax for accessing the property of an object is:
 // objectName.property          // person.age
 
-const guacamole = {
-    ingOne: "Avocado",
-    ingTwo: "lime juice",
-    ingThree: "cilantro",
-    ingFour: "onion", 
-    ingFive: "tomato", 
-    ingSix: "salt & pepper",
-    clue: "A dip or condiment originating in Mexico ",
-}
-console.log(guacamole.ingOne);
 
-// const carrotCake = {
-//     ingOne: "carrots",
-//     ingTwo: "sugar",
-//     ingThree: "eggs",
-//     ingFour: "cinnamon", 
-//     ingFive: "cream cheese", 
-//     ingSix: "vannila", 
-//     ingSeven: "walnuts",
-//     clue: "A cake made from a veggie for healthy eyes ",
-// }
-// console.log();
 
-// const hummus = {
-//     ingOne: "chickpeas",
-//     ingTwo: "tahini",
-//     ingThree: "lemon juice",
-//     ingFour: "garlic",
-//     ingFive: "salt and pepper",
-//     ingSix: "olive oil",
-//     clue: "Levantine dip or spread for veggies or pita",
-// }
-// console.log();
-
-// alert the general clue to each recipe
+// FUNCTION TO RANDOMLY SELECT INGREDIENT FROM RANDOMLY SELECTED RECIPE!!!!!
 
 
 
 
+// POPULATE THE FIRST CLUE!!!!!
 
 
-// randomize recipes and ingredients
-// example:
-// var things = ['Rock', 'Paper', 'Scissor'];
-// var thing = things[Math.floor(Math.random()*things.length)];
-// alert('The computer chose:' + thing);
 
-// const recipes = ['Guacamole', 'Carrot Cake', 'Hummus'];
-// const recipe = recipe[Math.floor(Math.randon() * recipes.length)];
+ 
 
 // return('')
 
 
 
-//
