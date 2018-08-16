@@ -1,0 +1,51 @@
+body {
+    /* background: #ff0066; */
+    text-align: ;
+    padding: 50px;
+    margin: 40px;
+    border: 15px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 75px;
+    color: ;
+    text-align: center;
+    padding: ;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+ol {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: 300px;
+    color: ;
+    padding: 5px;
+    text-align:
+}
+
+li {
+    font-weight: 100px;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 27px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: ;
+    text-align: center;  
+}
+
