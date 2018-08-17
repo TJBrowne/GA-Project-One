@@ -44,4 +44,10 @@ p {
     text-align: center;
 }
 
+button {
+    font-size: 30px;
+}
 
+input {
+    font-size: 25px;
+}

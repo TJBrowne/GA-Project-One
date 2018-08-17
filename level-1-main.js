@@ -21,8 +21,9 @@ console.log(recipes);
 
 // CHOOSE RECIPE!!!!!!@!!
 let chosenRecipe = 0;
+let timesNumber = Math.floor(Math.random() * recipes.length)
 function randomRecipes(recipes) {
-    chosenRecipe = recipes[Math.floor(Math.random() * 3)];
+    chosenRecipe = recipes[timesNumber];
     return chosenRecipe;
 }
 randomRecipes(recipes)
@@ -33,11 +34,10 @@ console.log(chosenRecipe);
 function createClue() {
     let alertClue = document.createElement('div')
     alertClue.classList.add('randomClue')
-    alertClue.innerHTML = recipes[0].clue
+    alertClue.innerHTML = recipes[timesNumber].clue
     h4.appendChild(alertClue)
 }
 createClue()
-
 
 // CREATE HINT GENERATOR!!!!!!!!!!
 let hintNum = 0;
@@ -45,7 +45,7 @@ let hintNum = 0;
 function getHint() {
     let alertHint = document.createElement('div')
     alertHint.classList.add('randomHint')
-    alertHint.innerHTML = recipes[0].ingredients[hintNum]
+    alertHint.innerHTML = recipes[timesNumber].ingredients[hintNum]
     hintNum +=1;
     p.appendChild(alertHint)
 
