@@ -17,21 +17,19 @@ const recipes = [{
     clue: 'Levantine dip or spread for veggies or pita'
 }];
 
-console.log(recipes[0]);
+console.log(recipes);
 
-let chosenRecipe;
+// CHOOSE RECIPE!!!!!!@!!
+let chosenRecipe = 0;
 function randomRecipes(recipes) {
-    chosenRecipe = recipes[Math.floor(Math.random() * recipes.length)]
+    chosenRecipe = recipes[Math.floor(Math.random() * 3)];
     return chosenRecipe;
 }
 randomRecipes(recipes)
 
-console.log(chosenRecipe.ingredients);
+console.log(chosenRecipe);
 
-// chosenRecipe.ingredients
-// chosenRecipe.clue
-// chosenRecipe.name
-
+// CREATE CLUE GENERATOR!!!!!!!!!!
 function createClue() {
     let alertClue = document.createElement('div')
     alertClue.classList.add('randomClue')
@@ -40,18 +38,20 @@ function createClue() {
 }
 createClue()
 
+
+// CREATE HINT GENERATOR!!!!!!!!!!
+let hintNum = 0;
+
 function getHint() {
     let alertHint = document.createElement('div')
     alertHint.classList.add('randomHint')
-    randomIndex = Math.floor(Math.random() * recipes(ingredients.length))
-    alertHint.innerHTML = recipes[0].ingredients[randomIndex]
+    alertHint.innerHTML = recipes[0].ingredients[hintNum]
+    hintNum +=1;
     p.appendChild(alertHint)
 
 }
 console.log();
 
-//}   
-    //console.log('getting hint');
 
     // on the page in your html ...make a ul with a class of "hints"
     // use js to find that element on the page using js query save to a variable
@@ -59,36 +59,7 @@ console.log();
     // append onto hints a li that contains the first hint in the hints Array 
     // hints.append('<li>${hint}</li>')
 
-    let hintRequest = document.getElementsByClassName('hints')
-    let newHint = recipes(ingredients.shift());
-    p.appendChild(`<li>${hints}</li>`)
 
-    hintRequest()
-
-
-
-//{
-//     let ingredientHint = document.getElementsByClassName('hints')
-//     let newhint = recipes.shift();
-//     let showHint = newhint.ingredients;
-//     let hint = showHint.shift();
-//     p.appendChild(`<li>${hint}</li>`)
-// }
-//     console.log(ingredientHint);
-    
-    // let recipes = [{
-    //     name: 'food',
-    //     ingredients: ['mustard','ketchup'],
-    //  }];
-     
-    //  let show = recipes.shift();
-    //  let another =  show.ingredients;
-    //  let final = another.shift();
-     
-    //  console.log(final);
-
-
-// createHint()
 
 
 
