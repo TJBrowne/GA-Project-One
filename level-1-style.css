@@ -1,5 +1,5 @@
 body {
-    background: #cc33ff;
+    /* background: #cc33ff; */
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Righteous', cursive;
     font-size: 48px;
     color: ;
     text-align: center;
@@ -28,24 +28,31 @@ h4 {
 }
 
 h5 {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Poiret One', cursive;
     font-size: 30px;
     text-align: center;
     padding: 10px;
 }
 
 form {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     padding: 10px;
 }
 p {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
     text-align: center;
 }
 
 button {
     font-size: 30px;
+    display: block;
+    border-radius: 12px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;;
 }
 
 input {
