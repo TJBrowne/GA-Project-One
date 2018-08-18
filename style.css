@@ -1,5 +1,5 @@
 body {
-    background-image: ("/images/darkleft2.jpg");
+    background-image: url(./images/darkleft4.jpg);
     background-color: #ff0066;
     padding: 50px;
     margin: 40px;
@@ -26,10 +26,7 @@ h2 {
 ol {
     font-family: 'Poiret One', cursive;
     font-size: 25px;
-    font-weight: 300px;
-    color: ;
     padding: 5px;
-    text-align: ;
 }
 
 li {
