@@ -5,19 +5,18 @@ let h6 = document.querySelector('h6')
 const recipes = [{
     name: 'Guacamole',
     ingredients: ['Avocado', 'Lime', 'Cilantro', 'Onion', 'Tomato', 'Salt and Pepper'],
-    clue: 'A dip or condiment originating in Mexico' 
+    clue: 'A dip or condiment originating in Mexico.' 
 },
 {
     name: 'Carrot Cake',
     ingredients: ['Carrots', 'Sugar', 'Eggs', 'Cinnamon', 'Flour', 'Cream Cheese'],
-    clue: 'A cake made from a veggie, for healthy eyes'
+    clue: 'A cake made from a veggie, for healthy eyes.'
 },
 {
     name: 'Hummus',
     ingredients: ['Chickpeas', 'Tahini', 'Lemon', 'Garlic', 'Salt and Pepper', 'Olive Oil'],
-    clue: 'Levantine dip or spread for veggies or pita' 
+    clue: 'Levantine dip or spread for veggies or pita.' 
 }];
-
 console.log(recipes);
 
 // CHOOSE RECIPE!!!!!!!!
@@ -44,9 +43,33 @@ function checkAnswer() {
         alert("WRONG!!!");
     }
 }
-
-
 console.log(chosenRecipe);
+
+// when answer is correct, next clue is given
+// until all are answered correct
+
+let firstElement = recipes.shift();
+while( (i = recipes.shift()) === 3 ) {
+    console.log(i);
+
+// function correctAnswer(a) {
+//     if (checkAnswer === 0) {
+//       return "positive";
+//     } else {
+//       return "NOT positive";
+//     }
+//   }
+
+// let correctAnswer = 0;
+
+// if (checkAnswer === correct) {
+//     console.log();
+// } else {
+//     console.log('BETTER LUCK NEXT TIME!!!!');
+    
+// }
+
+
 
 // CREATE CLUE GENERATOR!!!!!!!!!!
 function createClue() {
@@ -69,17 +92,6 @@ function getHint() {
 
 }
 console.log();
-
-
-    // on the page in your html ...make a ul with a class of "hints"
-    // use js to find that element on the page using js query save to a variable
-    // make a variable called newhint and remove the hint from the clues array using the shift method on arrays      
-    // append onto hints a li that contains the first hint in the hints Array 
-    // hints.append('<li>${hint}</li>')
-
-
-
-
 
 
 
