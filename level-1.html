@@ -17,21 +17,22 @@
 
     <h4>Here is your First Clue...</h4>
     <h6></h6>
-    <!-- first clue should populate here... -->
-    <form class='recipe-name'action='level-1-main' method="get" autocomplete="off">
+
+    <form class='recipe-name' action='level-1-main' method="get" autocomplete="off">
         <input id='input' type='text'>
         <input id='submit' type='submit'>
     </form>
 
-    <h5>Need More...&#128071;</h5>
+    <div class='hint-container'><h5>Need More...&#128071;</h5>
     <p><b> Click the button below to get your next clue &#128071;</b></p>
 
     <ul class='hints'></ul>
 
     <button type='button' onclick="getHint()">Hint</button>
 
-    <button class='newDish' type='button' onclick="nextDish()">Next Dish</button>
-
+    <button class='newDish' type='button'>Next Dish</button>
+    </div>
+    
     <script src="level-1-main.js "></script>
 </body>
 

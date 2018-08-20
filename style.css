@@ -34,7 +34,6 @@ ul {
 li {
     font-weight: 100px;
     color: #E4BA2A;
-    /* -webkit-text-stroke-width: 1px; */
     display: flex; 
     line-height: 1.5; 
     position: relative; 
