@@ -3,27 +3,27 @@ let h4 = document.querySelector('h4')
 let p = document.querySelector('p')
 let h6 = document.querySelector('h6')
 const recipes = [{
-    name: 'Guacamole',
+    name: 'guacamole',
     ingredients: ['Avocado', 'Lime', 'Cilantro', 'Onion', 'Tomato', 'Salt and Pepper'],
     clue: 'A dip or condiment originating in Mexico.'
 },
 {
-    name: 'Carrot Cake',
+    name: 'carrot cake',
     ingredients: ['Carrots', 'Sugar', 'Eggs', 'Cinnamon', 'Flour', 'Cream Cheese'],
     clue: 'A cake made from a veggie, for healthy eyes.'
 },
 {
-    name: 'Hummus',
+    name: 'hummus',
     ingredients: ['Chickpeas', 'Tahini', 'Lemon', 'Garlic', 'Salt and Pepper', 'Olive Oil'],
     clue: 'Levantine dip or spread for veggies or pita.'
 },
 {
-    name: 'Croissant',
+    name: 'croissant',
     ingredients: ['Flour', 'Brown Sugar', 'Butter', 'Egg', 'Milk'],
     clue: 'A buttery, flaky, pastry named for its crescent shape.'
 },
 {
-    name: 'Spaghetti and meatballs',
+    name: 'spaghetti and meatballs',
     ingredients: ['Pasta', 'Bread Crumbs', 'Ground Beef', 'Parmesan Cheese', 'Tomatoes', 'Garlic'],
     clue: 'Famous Italian-American dish.'
 

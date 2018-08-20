@@ -35,7 +35,7 @@ li {
     font-weight: 100px;
     color: #E4BA2A;
     display: flex; 
-    line-height: 1.5; 
+    line-height: .5; 
     position: relative; 
     justify-content: center;
     
@@ -52,7 +52,7 @@ p {
     font-family: 'Poiret One', cursive;
     font-size: 20px;
     text-align: center;  
-    line-height: .5;
+    line-height: .2;
 }
 
 button {
@@ -69,3 +69,10 @@ button {
 button:hover {
     background-color: blueviolet;
     color: whitesmoke;
+}
+
+.rule-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 10%;
+    padding: 25px;
+}
