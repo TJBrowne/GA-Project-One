@@ -28,7 +28,6 @@ const recipes = [{
     clue: 'Famous Italian-American dish.'
 
 }];
-// console.log(recipes);
 
 let timesNumber = 0;
 let hintNum = 0;
