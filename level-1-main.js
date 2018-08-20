@@ -32,7 +32,6 @@ const recipes = [{
 let timesNumber = 0;
 let hintNum = 0;
 
-
 function randomRecipes(recipes) {
     timesNumber = Math.floor(Math.random() * recipes.length)
     const chosenRecipe = recipes[timesNumber];
@@ -50,28 +49,24 @@ submit.addEventListener('click', function (event) {
 })
 
 function checkAnswer() {
-    if (currentQuestion.name === input.value) {
+    if (currentQuestion.name === input.value.toLowerCase()) {
         alert("CORRECT!!!!!!");
     } else {
         alert("WRONG!!!");
     }
 }
 
-
 function newQuestion() { 
     recipes.splice(timesNumber, 1);
 
     console.log(recipes);
     
-
-
     currentQuestion = randomRecipes(recipes);
 
     createClue();
     p.innerHTML = '';
     hintNum = 0;
 }
-
 
 let nextQuestion = randomRecipes(recipes);
 let button = document.querySelector('.newDish');
@@ -87,8 +82,6 @@ function createClue() {
 }
 createClue()
 
-
-
 function getHint() {
     let alertHint = document.createElement('div')
     alertHint.classList.add('randomHint')
@@ -96,7 +89,7 @@ function getHint() {
     hintNum += 1;
     p.appendChild(alertHint)
 }
-// getHint();
+
 
 
 
