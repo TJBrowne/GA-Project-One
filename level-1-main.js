@@ -49,9 +49,10 @@ submit.addEventListener('click', function (event) {
 })
 
 function checkAnswer() {
-    if (currentQuestion.name === input.value.toLowerCase()) {
+    if (currentQuestion.name == input.value.toLowerCase()) {
         alert("CORRECT!!!!!!");
     } else {
+        console.log(input.value)
         alert("WRONG!!!");
     }
 }
@@ -78,14 +79,15 @@ button.addEventListener('click', function (event) {
 })
 
 function createClue() {
-    h6.innerHTML = recipes[timesNumber].clue;
+    h6.innerHTML = currentQuestion.clue;
 }
 createClue()
 
 function getHint() {
     let alertHint = document.createElement('div')
     alertHint.classList.add('randomHint')
-    alertHint.innerHTML = recipes[timesNumber].ingredients[hintNum]
+    alertHint.innerHTML = currentQuestion.ingredients[hintNum];
+    // alertHint.innerHTML = recipes[timesNumber].ingredients[hintNum]
     hintNum += 1;
     p.appendChild(alertHint)
 }
