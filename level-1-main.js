@@ -87,7 +87,6 @@ function getHint() {
     let alertHint = document.createElement('div')
     alertHint.classList.add('randomHint')
     alertHint.innerHTML = currentQuestion.ingredients[hintNum];
-    // alertHint.innerHTML = recipes[timesNumber].ingredients[hintNum]
     hintNum += 1;
     p.appendChild(alertHint)
 }
