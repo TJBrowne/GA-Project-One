@@ -7,7 +7,7 @@ body {
 .topnav {
     background-color: #FE7F2D;
     overflow: hidden;
-    padding: 8px 8px;
+    padding: 10px 10px;
 }
 .topnav a {
     font-family: 'Oswald', sans-serif;
@@ -26,7 +26,7 @@ h1 {
     font-family: 'Righteous', cursive;
     font-size: 55px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     line-height: .5;
 }
 
@@ -34,7 +34,7 @@ h3 {
     font-family: 'Righteous', cursive;
     font-size: 48px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     line-height: .5;
 }
 
@@ -67,14 +67,14 @@ h5 {
 .recipe-name {
     font-family: 'Poiret One', cursive;
     text-align: center; 
-    padding: 25px;
+    padding: 30px;
     color: black;   
     line-height: .5;
 }
 
 form {
     font-family: 'Poiret One', cursive;
-    padding: 10px;
+    padding: 30px;
     color: black;
     text-align: center;
     line-height: .5;
@@ -122,5 +122,5 @@ input {
 .hint-container {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 20%;
-    padding: 15px;
+    padding: 25px;
 }
