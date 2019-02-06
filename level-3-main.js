@@ -3,29 +3,29 @@ let h4 = document.querySelector('h4')
 let p = document.querySelector('p')
 let h6 = document.querySelector('h6')
 const recipes = [{
-    name: 'pad thai',
-    ingredients: ['Rice Noodles', 'Roasted Peanuts', 'Soy Sauce', 'Bean Sprouts', 'Ginger', 'Lime'],
-    clue: 'The perfect gluten free asian noodle dish.'
+    name: 'enchilada sauce ',
+    ingredients: ['Red Chiles', 'Onion', 'Garlic', 'Vegetable Broth', 'Sea Salt', 'Tabasco Sauce'],
+    clue: '.'
 },
 {
-    name: 'vegan tuna salad',
-    ingredients: ['Chickpeas', 'Dill Pickle', 'Vegan Mayo', 'Nutirtional Yeast', 'Tamari', 'Lemon Juice'],
-    clue: 'A vegan alternative to this simple, great salad.'
+    name: 'thai curry',
+    ingredients: ['Coconut Milk', 'Firm Tofu', 'Red Curry Paste', 'Spy Sauce', 'Cumin', 'Tumerice'],
+    clue: '.'
 },
 {
     name: 'red rentil and potato dhal',
-    ingredients: ['Red Lentils', 'Potato', 'Red Curry Paste', 'Garam Masala', 'Curry Powder', 'Tumeric'],
-    clue: 'Levantine dip or spread for veggies or pita.'
+    ingredients: ['Shrimp', 'Rice', 'Seafood Stock', 'Clams', 'Onion', 'Smoked Paprika', 'Saffron'],
+    clue: 'A classic Spanish dish that makes for a stunning and delicious meal.'
 },
 {
-    name: 'spicy honey glazed salmon',
-    ingredients: ['Salmon Filets', 'Paprika', 'Honey', 'Cumin', 'Chili Powder', 'Cumin', 'Salt & Pepper'],
-    clue: 'An Asian inspired seafood dish.'
+    name: 'chia seed pudding',
+    ingredients: ['Chia Seeds', 'Coconut Milk', 'Vanilla Extract', 'Strawberries', 'Granola', 'Maple Syrup'],
+    clue: '.'
 },
 {
-    name: 'jambalaya',
-    ingredients: ['Chicken Breasts', 'Rice', 'Chorizo Sausage', 'Bell Peppers', 'Cajun Seasoning', 'Garlic'],
-    clue: 'Famous Creole dish with rice, chicken and chorizo. .'
+    name: 'cabbage kimchi',
+    ingredients: ['Cabbage', 'Fresh Peeled Ginger', 'Korean Red Pepper Flakes', 'Fish Sauce', 'Korean Radish', 'Sugar', 'Scallions'],
+    clue: 'In Korean cuisine, is a famous traditional side dish made from salted & fermented vegetables.'
 
 }];
 let timesNumber = 0;
