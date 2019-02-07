@@ -5,22 +5,22 @@ let h6 = document.querySelector('h6')
 const recipes = [{
     name: 'enchilada sauce ',
     ingredients: ['Red Chiles', 'Onion', 'Garlic', 'Vegetable Broth', 'Sea Salt', 'Tabasco Sauce'],
-    clue: '.'
+    clue: 'A spanish smoky, rich, and spicy red  sauce made with simple ingredients .'
 },
 {
-    name: 'thai curry',
+    name: 'vegan thai curry',
     ingredients: ['Coconut Milk', 'Firm Tofu', 'Red Curry Paste', 'Spy Sauce', 'Cumin', 'Tumerice'],
-    clue: '.'
+    clue: 'Thai dish made with a variety of pastes, assorted meats and vegetables.'
 },
 {
     name: 'red rentil and potato dhal',
     ingredients: ['Shrimp', 'Rice', 'Seafood Stock', 'Clams', 'Onion', 'Smoked Paprika', 'Saffron'],
-    clue: 'A classic Spanish dish that makes for a stunning and delicious meal.'
+    clue: 'A classic Indian dish serve this dish with basmati rice, mango chutney and yoghurt.'
 },
 {
     name: 'chia seed pudding',
     ingredients: ['Chia Seeds', 'Coconut Milk', 'Vanilla Extract', 'Strawberries', 'Granola', 'Maple Syrup'],
-    clue: '.'
+    clue: 'A creamy, maple-infused pudding, a naturally vegan breakfast recipe made with simple ingredients.'
 },
 {
     name: 'cabbage kimchi',
