@@ -5,41 +5,37 @@ body {
     background-size: cover;
     text-align: center;
 }
-
 .topnav {
-    background-color: #FE7F2D;
     overflow: hidden;
-    padding: 10px 10px;
+    padding: 2px 2px;
 }
 .topnav a {
     font-family: 'Oswald', sans-serif;
-    color: #233D4D;
+    color: whitesmoke;
     text-align: center;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 35px;   
+    font-size: 25px;   
+    background-color: purple;
 }
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-
 h1 {
     font-family: 'Righteous', cursive;
     font-size: 55px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     line-height: .5;
 }
-
 h3 {
     font-family: 'Righteous', cursive;
     font-size: 48px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     line-height: .5;
 }
-
 h4 {
     font-family: 'ABeeZee', sans-serif;
     font-size: 40px;
@@ -52,44 +48,44 @@ h6 {
     font-size: 35px;
     text-align: center;
     padding: 3px;
-    color: #E4512A;
+    margin: 3px;
+    color: rgb(228, 42, 104);
     mix-blend-mode: exclusion;
     line-height: .5;
 } 
-
 h5 {
     font-family: 'Poiret One', cursive;
-    font-size: 35px;
+    font-size: 30px;
     color: #E4BA2A;
     text-align: center;
-    padding: 3px;
+    padding: .5px;
     line-height: .5;
 }
-
 .recipe-name {
     font-family: 'Poiret One', cursive;
     text-align: center; 
-    padding: 30px;
+    padding: 8px;
     color: black;   
     line-height: .5;
 }
-
 form {
     font-family: 'Poiret One', cursive;
-    padding: 30px;
+    padding: 5px;
     color: black;
     text-align: center;
     line-height: .5;
 }
-
+#input {
+    border-radius: 4%;
+    margin: 20px;
+}
 p {
     font-family: 'Poiret One', cursive;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     line-height: 1;
     color: #E4BA2A;
 }
-
 button {
     font-family: 'Poiret One', cursive;
     font-size: 30px;
@@ -105,11 +101,9 @@ button:hover {
     background-color: blueviolet;
     color: whitesmoke;
 }
-
 input {
     font-size: 25px;
 }
-
 .newDish {
     font-family: 'Poiret One', cursive;
     font-size: 30px;
@@ -124,5 +118,5 @@ input {
 .hint-container {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 20%;
-    padding: 25px;
+    padding: 5px;
 }
